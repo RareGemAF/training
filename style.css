@@ -1,0 +1,26 @@
+.flex-container {
+    border: 2px solid orangered;
+    padding: 10px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.flex-item {
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+}
+
+#child-1 {
+    background-color: aqua;
+}
+
+.child-2 {
+    background-color: lightsalmon;
+}
